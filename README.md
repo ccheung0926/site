@@ -1,4 +1,4 @@
-# Wall, the actual front page of the internet?
+# Wall, the front cover of the internet
 
 Wall relies on a chrome-extension. Having this 'extension' allows one to turn Google's homepage into what it has always been, the most prominent neighborhood-wallfront in the global village. What good is a wall without graffiti?
 
