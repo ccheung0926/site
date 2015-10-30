@@ -28,4 +28,3 @@ Target for Completion: Tuesday, November 2, 2015
 4) Deployed on Digital Ocean (continous deployment)
 
 
-
