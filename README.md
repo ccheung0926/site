@@ -23,7 +23,7 @@ Target for Completion: Tuesday, November 2, 2015
 
 2) User profile pages with personal info, button for redirect to the canvas composition page, and display of miniatures of past canvases
 
-3) Composition page that allows user to draw on simulation of Google homepage, and allows them to 'Publish', which, for now, means storing in the database so that they can see it at Google (if they have the extension)
+3) Composition page that allows user to draw on simulation of Google homepage, and allows them to 'Publish', which, for now, means storing it in the database with user data pointing to it
 
 4) Deployed on Digital Ocean (continous deployment)
 
