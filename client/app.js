@@ -1,4 +1,4 @@
-angular.module('wall', [])
+angular.module('wall', ['pw.canvas-painter'])
 
 .config(function ($routeProvider) {
 
@@ -9,7 +9,7 @@ angular.module('wall', [])
     })
     .when('/compose', {
       templateUrl: 'compose.html',
-      controller: 'ComposeController'
+      controller: 'CanvasController'
     })
     .when('/:name', {
       templateUrl: 'profile.html',
@@ -24,8 +24,8 @@ angular.module('wall', [])
 
 })
 
-.controller('ComposeController', function(){
-
+.controller('CanvasController', function($scope){
+  
 })
 
 .controller('ProfileController', function(){
