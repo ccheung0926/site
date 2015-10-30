@@ -1,0 +1,7 @@
+{
+  "name" : "Wall",
+  "version" : "0.0.0",
+  "dependencies" : {
+    "angular-canvas-painter" : "~0.5.2"
+  }
+}
