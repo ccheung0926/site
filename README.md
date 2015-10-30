@@ -25,5 +25,7 @@ Target for Completion: Tuesday, November 2, 2015
 
 3) Composition page that allows user to draw on simulation of Google homepage, and allows them to 'Publish', which, for now, means storing in the database so that they can see it at Google (if they have the extension)
 
+4) Deployed on Digital Ocean (continous deployment)
+
 
 
