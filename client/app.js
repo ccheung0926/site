@@ -1,4 +1,8 @@
-angular.module('wall', ['pw.canvas-painter'])
+angular.module('wall', [
+  'wall.profile',
+  'wall.compose',
+  'wall.auth'
+  ])
 
 .config(function ($routeProvider) {
 
@@ -7,12 +11,20 @@ angular.module('wall', ['pw.canvas-painter'])
       templateUrl: 'main.html',
       controller: 'MainController'
     })
+    .when('/signin', {
+      templateUrl: 'auth/signin.html',
+      controller: 'AuthController'
+    })
+    .when('signup', {
+      templateUrl: 'auth/signup.html',
+      controller: 'AuthController'
+    })
     .when('/compose', {
-      templateUrl: 'compose.html',
+      templateUrl: 'compose/compose.html',
       controller: 'CanvasController'
     })
     .when('/:name', {
-      templateUrl: 'profile.html',
+      templateUrl: 'profile/profile.html',
       controller: 'ProfileController'
     })
     .otherwise({
@@ -21,13 +33,5 @@ angular.module('wall', ['pw.canvas-painter'])
 })
 
 .controller('MainController', function(){
-
-})
-
-.controller('CanvasController', function($scope){
-  
-})
-
-.controller('ProfileController', function(){
 
 })
