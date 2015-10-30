@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/../client'));
 
 app.get('/sign_in', authentication.signIn);
 
-app.post('/sign_up', authentication.signUp);
+app.get('/sign_up', authentication.signUp);
 
 var server = app.listen( (process.env.PORT || 3000), function () {
   var host = server.address().address;
