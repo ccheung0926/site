@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "dependencies": {
     "express": "4.13.3",
-    "express-cors": "0.0.3"
+    "express-cors": "0.0.3",
+    "bcrypt": "0.8.5"
   },
   "devDependencies": {
   }

@@ -15,7 +15,7 @@ angular.module('wall', [
       templateUrl: 'auth/signin.html',
       controller: 'AuthController'
     })
-    .when('signup', {
+    .when('/signup', {
       templateUrl: 'auth/signup.html',
       controller: 'AuthController'
     })
