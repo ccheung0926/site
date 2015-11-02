@@ -1,4 +1,4 @@
-# Wall, the front cover of the internet
+# Wall, the actual front page of the internet?
 
 Wall relies on a chrome-extension. Having this 'extension' allows one to turn Google's homepage into what it has always been, the most prominent neighborhood-wallfront in the global village. What good is a wall without graffiti?
 
@@ -26,5 +26,3 @@ Target for Completion: Tuesday, November 2, 2015
 3) Composition page that allows user to draw on simulation of Google homepage, and allows them to 'Publish', which, for now, means storing it in the database with user data pointing to it
 
 4) Deployed on Digital Ocean (continous deployment)
-
-
